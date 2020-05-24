@@ -1,0 +1,25 @@
+footer{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+
+body{
+    background: seashell;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background:  none;
+    font-weight: bold;
+    color: hotpink;
+}
+
+.fat{
+    border: hotpink;
+    background: hotpink;
+    font-weight: bold;
+    color: white;
+}
