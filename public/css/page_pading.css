@@ -1,0 +1,54 @@
+.hide {
+  display: none;
+}
+
+#container {
+  width: 90%;
+  max-width: 980px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+}
+
+#intro {
+  width: 300px;
+  margin-right: 30px;
+}
+
+main {
+  margin: 32px 0;
+}
+
+#button {
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: space-evenly;
+}
+
+.idea {
+  display: flex;
+  margin-bottom: 32px;
+  background: #ffffff;
+  padding: 32px;
+  box-shadow: 0 4px 16px -10px #000;
+  border-radius: 10px;
+}
+
+.idea img {
+  width: 60px;
+  height: 60px;
+  margin-right: 32px;
+}
+
+.idea h3 {
+  margin: 0;
+}
+
+.idea p {
+  margin: 8px 0;
+  color: #777;
+}
+
+.idea .description {
+  margin: 16px 0;
+}

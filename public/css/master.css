@@ -1,25 +1,47 @@
-footer{
-    text-align: center;
-    color: black;
-    text-decoration: none;
+footer {
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
-
-body{
-    background: seashell;
-    text-align: center;
+body {
+  background: rgb(255, 252, 250);
+  text-align: center;
+  margin: 0;
 }
 
-button{
-    border: none;
-    background:  none;
-    font-weight: bold;
-    color: hotpink;
+a {
+  color: #ff5e84;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.fat{
-    border: hotpink;
-    background: hotpink;
-    font-weight: bold;
-    color: white;
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  color: #ff5e84;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.fat {
+  border: #ff5e84;
+  border-radius: 40px 0;
+  width: 150px;
+  height: 40px;
+  background: hotpink;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16);
 }
